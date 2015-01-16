@@ -72,7 +72,7 @@ h1 {
 }
 
 h2 {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   font-size: 32px;
   background: url('../images/bg_hr.png') repeat-x bottom;
 }
@@ -101,6 +101,10 @@ footer p {
   color: #f2f2f2;
 }
 
+footer p.light {
+  color: #5C5C5C;
+}
+
 a {
   text-decoration: none;
   color: #007edf;
@@ -123,6 +127,16 @@ a:hover, a:focus {text-decoration: underline;}
 footer a {
   color: #F2F2F2;
   text-decoration: underline;
+}
+
+footer p.copyright a {
+  color: #F2F2F2;
+  text-decoration: none;
+}
+
+footer p.light a {
+  color: #5C5C5C;
+  text-decoration: none;
 }
 
 em {
